@@ -7,6 +7,8 @@ import RecipeDetails from './components/pages/RecipeDetails';
 import Landing from './components/pages/Landing';
 
 function App() {
+
+  
   return (
     <>
     <BrowserRouter>

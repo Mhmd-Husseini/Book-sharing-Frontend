@@ -1,8 +1,10 @@
 .reviews-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px;
     padding: 110px 7%;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   
   @media (max-width: 768px) {
@@ -11,3 +13,30 @@
     }
   }
   
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+  }
+  
+  .search-label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .search-input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #908989;
+    border-radius: 4px;
+    flex-grow: 1;
+  }
+  
+  .search{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: auto;
+    /* align-items: center; */
+    justify-content: center;
+  }

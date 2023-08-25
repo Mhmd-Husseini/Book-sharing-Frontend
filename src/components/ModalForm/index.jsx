@@ -77,9 +77,9 @@ const FormModal = ({ handleCloseModal }) => {
         </div>
         <label>Upload Images</label>
         <input type='file' onChange={handleImageChange} />
-        <div>
+        <div className='review flex column'>
           <label>Review</label>
-          <textarea name='review' value={data.review} onChange={handleDataChange} placeholder='Enter review' />
+          <textarea  name='review' value={data.review} onChange={handleDataChange} placeholder='Enter review' />
         </div>
       </div>
       <div className='buttons-container'>
